@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Image Gallery</title>
+  <title>Image & Video Gallery</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,7 +21,8 @@
       gap: 20px;
     }
 
-    .gallery img {
+    .gallery img,
+    .gallery video {
       width: 200px;
       height: auto;
       border-radius: 10px;
@@ -29,19 +30,26 @@
       transition: transform 0.3s ease;
     }
 
-    .gallery img:hover {
+    .gallery img:hover,
+    .gallery video:hover {
       transform: scale(1.05);
     }
   </style>
 </head>
 <body>
 
-  <h1>Simple Image Gallery</h1>
+  <h1>Image & Video Gallery</h1>
 
   <div class="gallery">
     <img src="./Assets/IB2_email.png" alt="Image 1">
     <img src="./Assets/Go Beyond Insurance – Deliver Real Care! (9).png" alt="Image 2">
     <img src="image3.jpg" alt="Image 3">
+    
+    <!-- Video block -->
+    <video controls>
+      <source src="./Assets/WhatsApp Video 2025-05-14 at 11.43.29_36165a98.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
 </body>
