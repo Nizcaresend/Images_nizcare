@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image & Video Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img,
+    .gallery video {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease; 
+    }
+
+    .gallery img:hover,
+    .gallery video:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+      transform: scale(1.05); 
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image & Video Gallery</h1>
+
+  
+
+  <div class="gallery">
+    <img src="./gifs/Amaze Insurance Brokers Pvt Ltd gif.gif" alt="Amaze Insurance Brokers Pvt Ltd">
+    <img src="./gifs/Apex Insurance gif.gif" alt="Apex Insurance">
+    <img src="./gifs/Edify Insurance gif.gif" alt="Edify Insurance">
+    <img src="./gifs/Futurisk Insurance gif.gif" alt="Futurisk Insurance">
+    <img src="./gifs/JK INSURANCE gif.gif" alt="JK Insurance">
+    <img src="./gifs/Lambach Insurance Broker gif.gif" alt="Lambach Insurance Broker">
+    <img src="./gifs/MD India gif.gif" alt="MD India">
+    <img src="./gifs/Millennials Insurance gif.gif" alt="Millennials Insurance">
+    <img src="./gifs/Novo Insurance gif.gif" alt="Novo Insurance">
+    <img src="./gifs/Policy Nation gif.gif" alt="Policy Nation">
+    <img src="./gifs/RockSure Insurance gif.gif" alt="RockSure Insurance">
+    <img src="./gifs/RTF Insurance gif.gif" alt="RTF Insurance">
+    <img src="./gifs/Vibe Insurance gif.gif" alt="Vibe Insurance">
+    <img src="./gifs/Vizza Insurance gif.gif" alt="Vizza Insurance">
+    <img src="./gifs/Worldwide Insurance Brokers Ltd gif.gif" alt="Worldwide Insurance Brokers Ltd">
+   
+  </div>
+
+</body>
+</html>
